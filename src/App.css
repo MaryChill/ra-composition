@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card {
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid #646cff;
+  border-radius: 8px;
+}
+
+.card-title,
+.card-text {
+  padding: 0 20px;
+}
+
+
+
+.card-img {
+  height: 200px;
+  background-color: grey;
+  display: block;
+  color: white;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  background-color: #646cff;
+  color: white;
+  border-radius: 8px;
+  width: 150px;
+  text-decoration: none;
+  margin: 0 auto 20px 20px;
+}
+.btn:hover {
+  text-decoration: underline;
+}
+
+.decomposition {
+  margin-top: 20px;
+}
+
+.news a p {
+  margin: 0;
+}
+
+.news *,
+.search * {
+  display: block;
+}
+.news ul {
+  padding-left: 0;
+  margin: 0;
+}
+.news img {
+  width: 22px;
+  height: 22px;
+}
+
+.news a,
+.search__list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+  margin-top: 10px;
+}
+.search a,
+.information a {
+  text-decoration: none;
+  color: #646cff;
+  display: block;
+}
+
+.search__input {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+.search__btn {
+  margin: 0;
+  position: absolute;
+  top: 24px;
+  right: 0px;
+  width: 80px;
+}
+
+.bunner {
+  margin-top: 15px;
+  position: relative;
+  overflow:hidden;
+  height: 150px;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
